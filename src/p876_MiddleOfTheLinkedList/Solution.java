@@ -11,7 +11,6 @@ public class Solution {
         	if(changeMid) midNode = midNode.next;
         	changeMid = !changeMid;
         }
-        
 		return midNode;
     }
 }
